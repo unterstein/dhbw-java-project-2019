@@ -74,7 +74,7 @@ public class ProjektTester {
                 }
                 if (countComma(line) != schauspielerComma) {
                     passed = false;
-                    System.err.println("Test: " + arg + " fehlgeschlagen, weil Anzahl der Schauspieler nicht stimmen. e:"+schauspielerComma+":"+countComma(line));
+                    System.err.println("Test: " + arg + " fehlgeschlagen, weil Anzahl der Schauspieler nicht stimmen.");
                 }
             } else {
                 if (!line.contains(filmeContains)) {
@@ -83,7 +83,7 @@ public class ProjektTester {
                 }
                 if (countComma(line) != filmeComma) {
                     passed = false;
-                    System.err.println("Test: " + arg + " fehlgeschlagen, weil Anzahl der Filme nicht stimmen."+filmeComma+":"+countComma(line));
+                    System.err.println("Test: " + arg + " fehlgeschlagen, weil Anzahl der Filme nicht stimmen.");
                 }
             }
         }
