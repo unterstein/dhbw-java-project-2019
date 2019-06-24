@@ -10,3 +10,7 @@ public class ProjektTester {
     // Z.b. die Klasse MeinProjekt im Paket dhbw.java, muss lauten: 'dhbw.java.MeinProjekt'
     private static final String MAIN_CLASS = "Main";
 ```
+
+# Problemlösung:
+## 1. Der Test liefert, dass Ergebnisse um eins abweichen
+Die Testdaten gehen davon aus, dass bei einem Filmnetz der Film auf dem die Netzwerksuche basiert nicht im Ergebnis enthalten ist. Bei dem Schauspielernetzwerk ebenso. D.h. ihr müsstet die originalen Filme/Schauspieler aus der Ergebnismenge raus filtern.
