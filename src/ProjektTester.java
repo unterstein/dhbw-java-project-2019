@@ -76,7 +76,7 @@ public class ProjektTester {
                     passed = false;
                     System.err.println("Test: " + arg + " fehlgeschlagen, weil Anzahl der Schauspieler nicht stimmen. Erwartet: " + schauspielerComma + ", erhalten: " + countComma(line));
                 }
-            } else {
+            } else if (line.startsWith("Filme")) {
                 if (!line.contains(filmeContains)) {
                     passed = false;
                     System.err.println("Test: " + arg + " fehlgeschlagen, weil Filme nicht stimmen.");
