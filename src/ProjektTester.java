@@ -21,8 +21,8 @@ public class ProjektTester {
         passed &= passedTestNetzwerk("--schauspielernetzwerk=19786", "Ice Cube", "Italian Job", 26, 15);
         // Eric Clapton
         passed &= passedTestNetzwerk("--schauspielernetzwerk=15729", "Joe Brown", "Concert for George", 5, 2);
-        // Will Smith
-        passed &= passedTestNetzwerk("--schauspielernetzwerk=18925", "Robert De Niro", "Men in Black", 42, 17);
+        // Bud Spencer
+        passed &= passedTestNetzwerk("--schauspielernetzwerk=14230", "Marina Langner", "Banana Joe", 2, 0);
 
         if (passed) {
             System.out.println("Alle Tests bestanden ᕕ( ᐛ )ᕗ");
