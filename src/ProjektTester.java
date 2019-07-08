@@ -11,14 +11,14 @@ public class ProjektTester {
         // Tests are passing
         boolean passed = true;
 
-        // Matrix
-        passed = passedTestNetzwerk("--filmnetzwerk=2081", "Keanu Reeves", "Day the Earth Stood Still", 3, 42);
-        // Lord of the Rings: The Return of the King
-        passed &= passedTestNetzwerk("--filmnetzwerk=5045", "Ali Astin", "The Fellowship of the Ring", 3, 6);
+        // Battle for the Planet of the Apes
+        passed = passedTestNetzwerk("--filmnetzwerk=2047", "Claude Akins", "Lassie Come Home", 3, 4);
+        // Back to the Future Part
+        passed &= passedTestNetzwerk("--filmnetzwerk=1592", "Michael J. Fox", "Back to the Future Part III", 3, 35);
         // Asterix and the Gauls
         passed &= passedTestNetzwerk("--filmnetzwerk=5764", "Jacques Morel", "Asterix and the Vikings ", 3, 0);
-        // Jason Statham
-        passed &= passedTestNetzwerk("--schauspielernetzwerk=19786", "Ice Cube", "Italian Job", 26, 15);
+        // Tom Murray
+        passed &= passedTestNetzwerk("--schauspielernetzwerk=9905", "Charles Chaplin", "Gold Rush", 2, 1);
         // Eric Clapton
         passed &= passedTestNetzwerk("--schauspielernetzwerk=15729", "Joe Brown", "Concert for George", 5, 2);
         // Bud Spencer
